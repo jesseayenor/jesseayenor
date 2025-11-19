@@ -116,11 +116,11 @@ const HowItWorks = () => {
           </div>
 
           <div className="container mx-auto px-6 py-20 z-10 text-center">
-            <h1 className="text-5xl md:text-7xl font-extrabold text-foreground leading-tight mb-6 animate-slide-up">
+            <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 animate-slide-up">
               How AceLink Works: <br />
               <span className="text-secondary">Connecting You to Trusted Handymen Instantly</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white mb-10 max-w-3xl mx-auto">
               Simple. Fast. Reliable. Your handyman is just a few taps away.
             </p>
             

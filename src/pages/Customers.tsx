@@ -26,11 +26,11 @@ const Customers = () => {
           
           <div className="container mx-auto px-6 py-20 z-10">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-5xl md:text-7xl font-extrabold text-foreground leading-tight mb-6 animate-slide-up">
+              <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 animate-slide-up">
                 Got a Problem? <br />
                 <span className="text-secondary">Get a Handyman in Minutes</span>
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-10">
+              <p className="text-xl md:text-2xl text-white mb-10">
                 AceLink brings you trusted handymen, fast. Forget the hassle—just a tap and the help you need arrives at your doorstep.
               </p>
               
@@ -59,7 +59,7 @@ const Customers = () => {
         {/* How It Works - Customer Flow */}
         <section className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4 text-white">
               Fast. Simple. Instant Help — With a Tap.
             </h2>
             <p className="text-center text-xl text-muted-foreground mb-16 max-w-2xl mx-auto">
@@ -170,10 +170,10 @@ const Customers = () => {
         {/* Services Offered */}
         <section className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4 text-white">
               Whatever You Need, We've Got You Covered
             </h2>
-            <p className="text-center text-xl text-muted-foreground mb-16 max-w-2xl mx-auto">
+            <p className="text-center text-xl text-white mb-16 max-w-2xl mx-auto">
               From small repairs to major installations
             </p>
             
@@ -206,7 +206,7 @@ const Customers = () => {
         {/* Customer Testimonials */}
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               What Our Customers Say
             </h2>
             

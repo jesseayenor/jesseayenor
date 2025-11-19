@@ -58,7 +58,7 @@ const EarlyAccess = () => {
   };
 
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-background">
       <Navbar />
       
       <main className="py-20 md:py-32">

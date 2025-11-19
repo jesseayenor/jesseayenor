@@ -86,10 +86,10 @@ const Index = () => {
           
           <div className="container mx-auto px-6 py-20 md:py-32 grid md:grid-cols-2 gap-12 items-center z-10">
             <div className="text-center md:text-left animate-slide-up">
-              <h1 className="text-5xl md:text-7xl font-extrabold text-foreground leading-tight mb-6">
+              <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6">
                 Find Trusted Handymen — Instantly.
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-10">
+              <p className="text-xl md:text-2xl text-white mb-10">
                 AceLink connects you with verified handymen for home, office, and industrial jobs — anytime, anywhere.
               </p>
               
@@ -97,10 +97,9 @@ const Index = () => {
                 <Link to="/early-access">
                   <Button 
                     size="lg" 
-                    variant="secondary"
-                    className="text-lg px-10 py-6 hover-lift animate-pulse-scale"
+                    className="text-lg px-10 py-6 bg-secondary text-secondary-foreground hover:bg-secondary/90 hover-lift animate-pulse-scale"
                   >
-                    Get Early Access
+                    Get Started Now
                   </Button>
                 </Link>
                 <Link to="/handymen/early-access">
@@ -114,37 +113,38 @@ const Index = () => {
                 </Link>
               </div>
             </div>
-
-            <AnimatedSequence />
+            
+            {/* Placeholder for right side content */}
+            <div className="hidden md:block"></div>
           </div>
         </section>
 
         {/* Value Proposition */}
         <section className="py-20 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl font-bold mb-12">Built for Trust and Speed</h2>
+            <h2 className="text-center text-4xl font-bold mb-12 text-white">Built for Trust and Speed</h2>
             
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-card/50 backdrop-blur-sm p-8 rounded-xl border border-border hover-lift">
+              <div className="bg-background p-8 rounded-xl border border-border hover-lift">
                 <Shield className="h-12 w-12 text-secondary mb-4" />
-                <h3 className="text-2xl font-semibold mb-4">Verified Handymen</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">Verified Handymen</h3>
+                <p className="text-primary/70">
                   Every handyman passes ID verification, skill tests, and customer reviews.
                 </p>
               </div>
               
-              <div className="bg-card/50 backdrop-blur-sm p-8 rounded-xl border border-border hover-lift">
+              <div className="bg-background p-8 rounded-xl border border-border hover-lift">
                 <Zap className="h-12 w-12 text-secondary mb-4" />
-                <h3 className="text-2xl font-semibold mb-4">Instant Job Match</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">Instant Job Match</h3>
+                <p className="text-primary/70">
                   Get the nearest available handyman in under 10 minutes.
                 </p>
               </div>
               
-              <div className="bg-card/50 backdrop-blur-sm p-8 rounded-xl border border-border hover-lift">
+              <div className="bg-background p-8 rounded-xl border border-border hover-lift">
                 <CreditCard className="h-12 w-12 text-secondary mb-4" />
-                <h3 className="text-2xl font-semibold mb-4">Cashless Payments</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">Cashless Payments</h3>
+                <p className="text-primary/70">
                   Pay securely via Mobile Money or in-app wallet.
                 </p>
               </div>
@@ -156,13 +156,13 @@ const Index = () => {
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
                 Your home deserves reliable help, not random luck.
               </h2>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-lg text-white mb-6">
                 Every day, people struggle to find skilled handymen they can trust — while thousands of hardworking professionals remain unseen and underpaid.
               </p>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-white">
                 AceLink bridges that gap. We connect skills to opportunity and trust to every transaction.
               </p>
             </div>
@@ -181,19 +181,27 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Animated Sequence Section */}
+        <section className="py-20 bg-primary">
+          <div className="container mx-auto px-6">
+            <h2 className="text-center text-4xl font-bold mb-12 text-white">How It Works</h2>
+            <AnimatedSequence />
+          </div>
+        </section>
+
         {/* How It Works */}
         <section id="how-it-works" className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               How AceLink Works
             </h2>
             
             <div className="max-w-3xl mx-auto space-y-12">
               {[
-                { icon: Smartphone, title: "Request a Service", desc: "Choose what you need fixed via our user-friendly app or simple USSD code." },
-                { icon: Search, title: "Get Matched Instantly", desc: "Our system finds and alerts the nearest available, qualified handyman." },
-                { icon: MessageSquare, title: "Track & Chat", desc: "See your handyman's ETA in real-time and communicate directly." },
-                { icon: Star, title: "Pay & Review", desc: "Complete the job with secure payment and rate your handyman." },
+                { icon: Smartphone, title: "Request a Service", desc: "Choose what you need fixed via our user-friendly app or simple USSD code.", color: "text-white" },
+                { icon: Search, title: "Get Matched Instantly", desc: "Our system finds and alerts the nearest available, qualified handyman.", color: "text-white" },
+                { icon: MessageSquare, title: "Track & Chat", desc: "See your handyman's ETA in real-time and communicate directly.", color: "text-white" },
+                { icon: Star, title: "Pay & Review", desc: "Complete the job with secure payment and rate your handyman.", color: "text-white" },
               ].map((step, index) => {
                 const Icon = step.icon;
                 return (
@@ -203,7 +211,7 @@ const Index = () => {
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold mb-2 text-secondary">{step.title}</h3>
-                      <p className="text-muted-foreground">{step.desc}</p>
+                      <p className="text-white">{step.desc}</p>
                     </div>
                   </div>
                 );
@@ -215,22 +223,22 @@ const Index = () => {
         {/* Stats */}
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               We're Building Ghana's Smartest Work Network.
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center p-8 bg-card/50 backdrop-blur-sm rounded-xl border border-border">
-                <div className="text-6xl font-extrabold text-secondary mb-2">200+</div>
-                <div className="text-xl text-muted-foreground">Early Adopters</div>
+              <div className="text-center p-8 bg-background rounded-xl border border-border">
+                <div className="text-6xl font-extrabold text-secondary mb-2 counter" data-target="200">0</div>
+                <div className="text-xl text-primary/70">Early Adopters</div>
               </div>
-              <div className="text-center p-8 bg-card/50 backdrop-blur-sm rounded-xl border border-border">
-                <div className="text-6xl font-extrabold text-secondary mb-2">40%</div>
-                <div className="text-xl text-muted-foreground">Higher Income for Handymen</div>
+              <div className="text-center p-8 bg-background rounded-xl border border-border">
+                <div className="text-6xl font-extrabold text-secondary mb-2"><span className="counter" data-target="40">0</span>%</div>
+                <div className="text-xl text-primary/70">Higher Income for Handymen</div>
               </div>
-              <div className="text-center p-8 bg-card/50 backdrop-blur-sm rounded-xl border border-border">
-                <div className="text-6xl font-extrabold text-secondary mb-2">2</div>
-                <div className="text-xl text-muted-foreground">Access Modes (App + USSD)</div>
+              <div className="text-center p-8 bg-background rounded-xl border border-border">
+                <div className="text-6xl font-extrabold text-secondary mb-2 counter" data-target="2">0</div>
+                <div className="text-xl text-primary/70">Access Modes (App + USSD)</div>
               </div>
             </div>
           </div>
@@ -249,8 +257,8 @@ const Index = () => {
                 { quote: "Finally, a platform that respects our work and pays on time.", author: "Kwame, Electrician" },
                 { quote: "Even my mum uses the USSD option — simple and powerful!", author: "Joseph, Madina" },
               ].map((testimonial, index) => (
-                <div key={index} className="bg-card/50 backdrop-blur-sm p-8 rounded-xl border border-border hover-lift">
-                  <p className="text-lg text-muted-foreground mb-4 italic">"{testimonial.quote}"</p>
+                <div key={index} className="bg-background p-8 rounded-xl border border-border hover-lift">
+                  <p className="text-lg text-primary/70 mb-4 italic">"{testimonial.quote}"</p>
                   <p className="font-semibold text-secondary">— {testimonial.author}</p>
                 </div>
               ))}

@@ -35,10 +35,10 @@ const Handymen = () => {
           
           <div className="container mx-auto px-6 py-20 z-10">
             <div className="max-w-3xl">
-              <h1 className="text-5xl md:text-7xl font-extrabold text-foreground leading-tight mb-6 animate-slide-up">
+              <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 animate-slide-up">
                 Join AceLink — Where Your Work Finds You
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground mb-10">
+              <p className="text-xl md:text-2xl text-white mb-10">
                 We help handymen grow their earnings, reputation, and reliability. Get more jobs, faster payments, and digital credibility.
               </p>
               
@@ -67,10 +67,10 @@ const Handymen = () => {
         {/* Why Choose AceLink */}
         <section className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4 text-white">
               Why AceLink is the Best Choice for Handymen
             </h2>
-            <p className="text-center text-xl text-muted-foreground mb-16 max-w-2xl mx-auto">
+            <p className="text-center text-xl text-white mb-16 max-w-2xl mx-auto">
               We're not just connecting you to customers — we're connecting you to the future.
             </p>
             
@@ -122,7 +122,7 @@ const Handymen = () => {
         {/* How to Become a Handyman */}
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               How to Become an AceLink Handyman
             </h2>
             
@@ -169,7 +169,7 @@ const Handymen = () => {
         {/* Success Stories */}
         <section className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               Handymen Talk About Their Experience
             </h2>
             
@@ -236,10 +236,10 @@ const Handymen = () => {
         {/* Requirements */}
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-4 text-white">
               Requirements to Join
             </h2>
-            <p className="text-center text-xl text-muted-foreground mb-16 max-w-2xl mx-auto">
+            <p className="text-center text-xl text-white mb-16 max-w-2xl mx-auto">
               Here's what you need to become an AceLink handyman
             </p>
             
