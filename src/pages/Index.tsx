@@ -114,8 +114,10 @@ const Index = () => {
               </div>
             </div>
             
-            {/* Placeholder for right side content */}
-            <div className="hidden md:block"></div>
+            {/* Animated Sequence */}
+            <div className="hidden md:flex justify-center items-center">
+              <AnimatedSequence />
+            </div>
           </div>
         </section>
 
@@ -181,14 +183,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Animated Sequence Section */}
-        <section className="py-20 bg-primary">
-          <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl font-bold mb-12 text-white">How It Works</h2>
-            <AnimatedSequence />
-          </div>
-        </section>
-
         {/* How It Works */}
         <section id="how-it-works" className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
@@ -247,7 +241,7 @@ const Index = () => {
         {/* Testimonials */}
         <section className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               Real Stories. Real Impact.
             </h2>
             

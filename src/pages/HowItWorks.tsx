@@ -152,10 +152,10 @@ const HowItWorks = () => {
         <section id="steps-section" className="py-20 md:py-32 bg-background/5">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
                 Your Journey to Reliable Help
               </h2>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl text-white">
                 Five simple steps to connect with verified handymen
               </p>
             </div>
@@ -313,7 +313,7 @@ const HowItWorks = () => {
         <section className="py-20 bg-background/10">
           <div className="container mx-auto px-6">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl font-bold mb-8">
+              <h2 className="text-4xl font-bold mb-8 text-white">
                 Average Time to Get Help
               </h2>
               

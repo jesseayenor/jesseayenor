@@ -109,7 +109,7 @@ const Customers = () => {
         {/* Why Choose AceLink */}
         <section className="py-20 md:py-32">
           <div className="container mx-auto px-6">
-            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="text-center text-4xl md:text-5xl font-bold mb-16 text-white">
               Why AceLink? Because You Deserve Better.
             </h2>
             
@@ -254,7 +254,7 @@ const Customers = () => {
         </section>
 
         {/* App Preview */}
-        <section className="py-20 md:py-32 bg-background/5">
+        <section className="py-20 md:py-32 bg-background">
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
               <div>
