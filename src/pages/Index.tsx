@@ -53,7 +53,7 @@ const AnimatedSequence = () => {
               >
                 <Icon className={`h-10 w-10 md:h-12 md:w-12 ${isActive ? step.color : 'text-muted-foreground'} transition-all duration-500`} />
               </div>
-              <span className="mt-4 text-sm font-medium text-center">
+              <span className="mt-4 text-sm font-medium text-center text-white">
                 {step.label}
               </span>
               
